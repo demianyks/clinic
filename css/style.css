@@ -36,6 +36,7 @@ header {
 nav,
 nav > ul {
 	flex-direction: row;
+	justify-content: space-around;
 }
 header {
 	width: 100%;
@@ -59,6 +60,7 @@ nav.navigation {
 nav ul li {
 	list-style-type: none;
 	position: relative;
+	padding: 0 10px;
 }
 nav ul li a {
 	text-decoration: none;
@@ -70,10 +72,7 @@ nav ul li a {
 nav ul li:hover {
 	background-color: #0d9ac7;
 }
-nav > ul > li:hover {
-	padding: 0 2.5%;
-	margin: 0 -2.5%;
-}
+
 nav li:hover .submenu {
 	visibility: visible;
 	transition: width 2s linear 500ms;
@@ -146,6 +145,7 @@ nav li:hover .submenu {
 	list-style: none;
 	font-size: 0.875rem;
 	font-weight: bold;
+	padding: 0 5px;
 }
 .header-container section a {
 	text-decoration: none;
